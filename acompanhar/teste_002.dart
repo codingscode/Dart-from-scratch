@@ -2,7 +2,7 @@ void main() {
 
 	// Literals
 	var isCool = true;
-	int x = 2;
+  int x = 2;
 	"John";
 	4.5;
 
@@ -17,10 +17,10 @@ void main() {
 
 
 	// String Interpolation : Use ["My name is $name"] instead of ["My name is " + name]
-	String name = "Kevin";
+	String name = 'Kevin';
 
-	print("My name is $name");
-	print("The number of characters in String Kevin is ${name.length}");
+	print('My name is $name');
+	print('The number of characters in String Kevin is ${name.length}');
 
 
 	int l = 20;
